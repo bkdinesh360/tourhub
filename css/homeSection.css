@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: var(--dark);
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --maincolor:rgb(6, 120, 6);
+    --dark:#1b1b1e;
+    --light:#cfe5f5;
+    --secondarycolor:#fb2056;
+}
+
+.home_container{
+    background:rgba(26, 26, 26, 0.5) url("../assets/Himalayas-one-of-the-major-tourist-attraction-in-Nepal.jpg");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+.home_container form input{
+    font-size: 16px;
+    padding: 5px 7px;
+}
+.home_container form button{
+    font-size: 16px;
+    padding: 5px 9px;
+    font-weight: 550;
+    cursor: pointer;
+    color: white;
+    background-color: var(--maincolor);
+    border: none;
+}
+
+#home_section .home_container h1{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding: 15px 5px;
+}
